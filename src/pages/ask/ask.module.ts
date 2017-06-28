@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
-import { AskPage } from './ask';
+// import { IonicPageModule } from 'ionic-angular';
+// import { AskPage } from './ask';
 
 @NgModule({
   declarations: [
