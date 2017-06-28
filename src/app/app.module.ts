@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { NewsPage } from "../pages/news/news";
 import { CommentsPage } from "../pages/comments/comments";
 import { ShowPage } from "../pages/show/show";
+import { AskPage } from "../pages/ask/ask";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ShowPage } from "../pages/show/show";
     HomePage,
     NewsPage,
     CommentsPage,
-    ShowPage
+    ShowPage,
+    AskPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { ShowPage } from "../pages/show/show";
     HomePage,
     NewsPage,
     CommentsPage,
-    ShowPage
+    ShowPage,
+    AskPage
   ],
   providers: [
     StatusBar,
