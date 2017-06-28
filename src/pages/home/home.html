@@ -32,7 +32,7 @@
 
 </ion-header>
 
-<ion-content padding [ngSwitch]="tab">
+<ion-content [ngSwitch]="tab">
   <page-news *ngSwitchCase="'news'"></page-news>
   <page-comments *ngSwitchCase="'comments'"></page-comments>
   <page-show *ngSwitchCase="'show'"></page-show>
