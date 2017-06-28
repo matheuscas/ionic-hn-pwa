@@ -1,9 +1,35 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="secondary">
     <ion-title>
-      Ionic Blank
+      Ionic HW PWA
     </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="md-ionic" item-left></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
+
+  <ion-toolbar no-border-top color="secondary">
+    <ion-segment color="dark" [(ngModel)]="tab">
+      <ion-segment-button value="new">
+        new
+      </ion-segment-button>
+      <ion-segment-button value="comments">
+        comments
+      </ion-segment-button>
+      <ion-segment-button value="show">
+        show
+      </ion-segment-button>
+      <ion-segment-button value="ask">
+        ask
+      </ion-segment-button>
+      <ion-segment-button value="jobs">
+        jobs
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+
 </ion-header>
 
 <ion-content padding>

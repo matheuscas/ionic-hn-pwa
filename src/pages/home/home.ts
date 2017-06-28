@@ -7,8 +7,10 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  public tab;
 
+  constructor(public navCtrl: NavController) {
+    this.tab = 'new';
   }
 
 }
