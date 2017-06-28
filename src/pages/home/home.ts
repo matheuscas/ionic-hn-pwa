@@ -10,7 +10,7 @@ export class HomePage {
   public tab;
 
   constructor(public navCtrl: NavController) {
-    this.tab = 'new';
+    this.tab = 'news';
   }
 
 }
