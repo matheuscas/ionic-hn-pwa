@@ -4,13 +4,13 @@ import { CommentsPage } from './comments';
 
 @NgModule({
   declarations: [
-    CommentsPage,
+    // CommentsPage,
   ],
   imports: [
-    IonicPageModule.forChild(CommentsPage),
+    // IonicPageModule.forChild(CommentsPage),
   ],
   exports: [
-    CommentsPage
+    // CommentsPage
   ]
 })
 export class CommentsPageModule {}

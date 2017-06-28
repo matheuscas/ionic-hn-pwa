@@ -4,13 +4,13 @@ import { AskPage } from './ask';
 
 @NgModule({
   declarations: [
-    AskPage,
+    // AskPage,
   ],
   imports: [
-    IonicPageModule.forChild(AskPage),
+    // IonicPageModule.forChild(AskPage),
   ],
   exports: [
-    AskPage
+    // AskPage
   ]
 })
 export class AskPageModule {}

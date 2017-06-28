@@ -4,13 +4,13 @@ import { ShowPage } from './show';
 
 @NgModule({
   declarations: [
-    ShowPage,
+    // ShowPage,
   ],
   imports: [
-    IonicPageModule.forChild(ShowPage),
+    // IonicPageModule.forChild(ShowPage),
   ],
   exports: [
-    ShowPage
+    // ShowPage
   ]
 })
 export class ShowPageModule {}

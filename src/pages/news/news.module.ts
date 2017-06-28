@@ -4,13 +4,13 @@ import { NewsPage } from './news';
 
 @NgModule({
   declarations: [
-    NewsPage,
+    // NewsPage,
   ],
   imports: [
-    IonicPageModule.forChild(NewsPage),
+    // IonicPageModule.forChild(NewsPage),
   ],
   exports: [
-    NewsPage
+    // NewsPage
   ]
 })
 export class NewsPageModule {}
